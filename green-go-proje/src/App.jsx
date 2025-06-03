@@ -6,6 +6,8 @@ import MyBookings from "./pages/MyBookings"
 import Search from "./pages/Search"
 
 import "./App.css"
+import LoginPage from './pages/LoginPage'
+import RegisterPage from './pages/RegisterPage'
 
 function App() {
   
@@ -16,6 +18,9 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/search" element={<Search/>}/>
         <Route path="/bookings" element={<MyBookings/>}/>
+        <Route path="/login" element={<LoginPage/>}/>
+        <Route path="/register" element={<RegisterPage/>}/>
+
       </Routes>
     </Router>
   )
